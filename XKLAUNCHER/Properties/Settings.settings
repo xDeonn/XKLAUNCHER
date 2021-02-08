@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="XKLAUNCHER.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CustomWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1440</Value>
+    </Setting>
+    <Setting Name="CustomHeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1080</Value>
+    </Setting>
+    <Setting Name="CustomParameters" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-client.headlerp 1 -client.headlerp_inertia false</Value>
+    </Setting>
+    <Setting Name="CustomParamCheck" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="CustomResCheck" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="AutoParamCheck" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NativeWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1920</Value>
+    </Setting>
+    <Setting Name="NativeHeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1080</Value>
+    </Setting>
+    <Setting Name="SteamDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files (x86)\Steam</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

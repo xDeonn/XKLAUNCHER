@@ -1,0 +1,27 @@
+﻿<Window x:Name="XKLAUNCHER" x:Class="XKLAUNCHER.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XKLAUNCHER"
+        mc:Ignorable="d"
+        Title="XKLAUNCHER" Height="450" Width="800" ResizeMode="NoResize" Icon="XKL LAUNCHER.ico" FontFamily="Century Gothic">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="93*"/>
+            <ColumnDefinition Width="304*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="jack'o fhd.png" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Button x:Name="Launch" Content="Launch" HorizontalAlignment="Left" Margin="504,364,0,0" VerticalAlignment="Top" Width="94" Height="47" FontFamily="Century Gothic" FontSize="18" Background="#FFD46400" Click="Launch_Click" Grid.Column="1"/>
+        <Button x:Name="SteamDirSelector" Content="Steam Dir" HorizontalAlignment="Left" Margin="426,364,0,0" VerticalAlignment="Top" Width="73" Height="47" FontFamily="Century Gothic" FontSize="14" Background="#FFD46400" Click="ChangeSteamDir_Click" Grid.Column="1"/>
+        <TextBox x:Name="CustomParamsText" HorizontalAlignment="Left" Height="20" Margin="10,391,0,0" TextWrapping="Wrap" Text="-client.headlerp 1 -client.headlerp_inertia false" VerticalAlignment="Top" Width="394" Background="#FFD46400" FontFamily="Century Gothic" FontSize="14" Grid.ColumnSpan="2" TextChanged="CustomParams_TextChanged"/>
+        <CheckBox x:Name="CustomParams" Content="Use Custom Parameters" HorizontalAlignment="Left" Margin="223.024,392,0,0" VerticalAlignment="Top" Checked="CustomParamsCheck_Checked" FontFamily="Century Gothic" FontSize="14" Grid.Column="1"/>
+        <CheckBox x:Name="AutoParams" Content="Auto Optimize Parameters" HorizontalAlignment="Left" Margin="223.024,368,0,0" VerticalAlignment="Top" Checked="AutoParamsCheck_Checked" FontFamily="Century Gothic" FontSize="14" Grid.Column="1"/>
+        <TextBox x:Name="Width" HorizontalAlignment="Left" Height="20" Margin="10,366,0,0" TextWrapping="Wrap" Text="1440" VerticalAlignment="Top" Width="56" Background="#FFD46400" FontFamily="Century Gothic" FontSize="14" TextChanged="Width_ValueChanged"/>
+        <TextBox x:Name="Height" HorizontalAlignment="Left" Height="20" Margin="87,366,0,0" TextWrapping="Wrap" Text="1080" VerticalAlignment="Top" Width="56" Background="#FFD46400" FontFamily="Century Gothic" FontSize="14" TextChanged="Height_ValueChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="71,364,0,0" TextWrapping="Wrap" Text="X" VerticalAlignment="Top" FontFamily="Century Gothic" FontSize="18"/>
+        <CheckBox x:Name="CustomRes" Content="Custom Resolution" HorizontalAlignment="Left" Margin="148,368,0,0" VerticalAlignment="Top" Checked="CustomResCheck_Checked" FontFamily="Century Gothic" FontSize="14" Grid.ColumnSpan="2"/>
+    </Grid>
+</Window>
